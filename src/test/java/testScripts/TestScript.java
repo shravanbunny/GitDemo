@@ -31,6 +31,8 @@ public class TestScript {
 			
 			driver.findElement(By.xpath("//span[text()=' 20,000 - ']")).click();
 			
+			System.out.println("done by gitx user1");
+			
 			
 			
 		}
