@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.comcast.conatctwithorgNameTest.CreateContactswithOrgTest"/>
+      <class name="com.crm.comcast.organaizationtest.CreateOrganization_With_Industries_And_Type_Test"/>
+      <class name="com.crm.comcast.organaizationtest.CreateOrganizationTest"/>
+      <class name="com.crm.Contacts.SDET.CreateNewContactsTest"/>
+      <class name="com.crm.Contacts.SDET.CreateContact_Support_DateTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
